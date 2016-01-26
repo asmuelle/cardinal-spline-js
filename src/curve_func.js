@@ -120,4 +120,5 @@ function curve(ctx, points, tension, numOfSeg, close) {
 
 	return res;
 }
+if (typeof exports !== "undefined") exports.curve = curve;
 
